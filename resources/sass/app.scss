@@ -1,0 +1,115 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.list-group-item {
+    .controls {
+        display: flex;
+    }
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    a {
+        text-decoration: none;
+        padding: 0 7px;
+        color: brown;
+        transition: all 0.4s;
+        &:hover {
+            color: darkcyan;
+        }
+    }
+}
+.country_photo{
+    width: 100px;
+    height: 100px;
+}
+
+.trijule{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.trijule-h{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.i-btn{
+    width: 100px;
+}
+.country-bin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+
+}
+.lr{
+    display: flex;
+    flex-direction: column;
+    .figure-img{
+        width: 200px;
+        img{
+            width: 200px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 2px #1a202c;
+        }
+    }
+}
+
+.country-box {
+    background-color: bisque;
+    display: inline;
+    padding: 10px 0px 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+
+    align-items: center;
+    h2 {
+        display: inline;
+        margin-left: 10px;
+        text-transform: capitalize;
+        letter-spacing: -1px;
+        text-shadow: 1px 1px white;
+        color: black;
+    }
+    h5{
+        display: inline;
+        color: slategrey;
+    }
+}
+.hotel-box {
+    padding: 10px 20px 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+
+    align-items: center;
+    h2 {
+        margin: 0;
+        text-transform: capitalize;
+        letter-spacing: 2px;
+        text-shadow: 1px 1px white;
+        color: black;
+    }
+}
+.hotel-bin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10px;
+
+}
